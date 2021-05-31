@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "net.textilemc.examplemod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ExampleMixin",
+    "MixinFar",
+    "Mixin1",
+    "Mixin2",
+    "Mixin3",
+    "Mixin4",
+    "Mixin5",
+    "Mixin6",
+    "Mixin7",
+    "Mixin8"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

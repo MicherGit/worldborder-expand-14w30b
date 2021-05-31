@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "borderexp",
+  "version": "${version}",
+
+  "name": "Border Expansion",
+  "description": "Worldborder expansion mod for shitassbric 14w30b",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "issues": "https://github.com/TextileMC/Textile-Example-Mod/issues",
+    "sources": "https://github.com/TextileMC/Textile-Example-Mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.textilemc.examplemod.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1430"
+  },
+  "accessWidener": "cursed.accesswidener"
+}
